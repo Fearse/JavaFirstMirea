@@ -5,9 +5,10 @@ import ru.mirea.task2.Dog.Dog;
 public class TestDog {
     public static void main(String [] args)
     {
-        Dog dog1=new Dog("Собака",7);
-        Dog dog2=new Dog("Пес",3);
-        System.out.println(dog1);
-        System.out.println(dog2);
+        Dog dog=new Dog("Скуби-Ду",7);
+        System.out.println(dog);
+        dog.setAge(10);
+        dog.setName("Гена");
+        System.out.println(dog);
     }
 }

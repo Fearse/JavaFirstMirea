@@ -10,15 +10,12 @@ public class Shape {
     public String getShapeName() {
         return shapeName;
     }
-
     public void setShapeName(String shapeName) {
         this.shapeName = shapeName;
     }
 
     @Override
     public String toString() {
-        return "Shape{" +
-                "shapeName='" + shapeName + '\'' +
-                '}';
+        return "Фигура: " + getShapeName();
     }
 }

@@ -8,5 +8,10 @@ public class TestBall {
         Ball ball=new Ball();
         ball.move(5,-5);
         System.out.println(ball);
+        ball.setXY(1,1);
+        System.out.println(ball);
+        ball.setX(0);
+        ball.setY(0);
+        System.out.println(ball);
     }
 }

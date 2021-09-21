@@ -8,14 +8,12 @@ public class Task {
         int[]a=new int[10];
         System.out.println("Введите элементы массива");
         for (int i=0;i<10;i++)
-        {
             a[i]=sc.nextInt();
-        }
+
         System.out.print("For:");
         for (int i=0;i<10;i++)
-        {
             System.out.print(" "+a[i]+" ");
-        }
+
         System.out.print("\n"+"While:");
         int i=0;
         while (i<10)

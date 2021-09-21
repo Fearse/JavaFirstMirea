@@ -14,6 +14,14 @@ public class Author {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
     public String getEmail() {
         return email;
     }

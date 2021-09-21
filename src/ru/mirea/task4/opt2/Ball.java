@@ -33,7 +33,7 @@ public class Ball {
     }
     public String toString()
     {
-        return "Ball @ ("+getX()+","+getY()+") ";
+        return "Ball  ("+getX()+","+getY()+") ";
     }
     public void move(double xDisp,double yDisp)
     {

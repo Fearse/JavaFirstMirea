@@ -10,6 +10,6 @@ public class Book implements Nameable{
 
     @Override
     public String getName() {
-        return "Имя книги: "+name;
+        return "Название книги: "+name;
     }
 }

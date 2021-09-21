@@ -5,9 +5,11 @@ import ru.mirea.task2.Ball.Ball;
 public class TestBall {
     public static void main(String [] args)
     {
-        Ball ball1=new Ball("Футбольный","Красный","Стандартный");
-        Ball ball2=new Ball("Баскетбольный","Оранжевый","Очень большой");
-        System.out.println(ball1);
-        System.out.println(ball2);
+        Ball ball=new Ball("Футбольный","Красный","Стандартный");
+        System.out.println(ball);
+        ball.setType("Баскетбольный");
+        ball.setColor("Оранжевый");
+        ball.setSize("Очень большой");
+        System.out.println(ball);
     }
 }

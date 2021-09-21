@@ -5,9 +5,11 @@ import ru.mirea.task2.Book.Book;
 public class TestBook {
     public static void main(String [] args)
     {
-        Book bk1=new Book("Война и мир","Толстой",5000,8);
-        Book bk2=new Book("Преступление и наказание","Достоевский",3000,10);
-        System.out.println(bk1);
-        System.out.println(bk2);
+        Book bk=new Book("Война и мир","Толстой",8);
+        System.out.println(bk);
+        bk.setAuthor("Достоевский");
+        bk.setName("Преступление и наказание");
+        bk.setRate(7);
+        System.out.println(bk);
     }
 }
