@@ -21,7 +21,7 @@ public class Book {
 
     public int getYear(){return year;}
 
-    public int getPage(){return page;};
+    public int getPage(){return page;}
 
     public void setName(String name) {
         this.name = name;
