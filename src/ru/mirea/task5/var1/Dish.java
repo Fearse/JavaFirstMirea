@@ -1,7 +1,7 @@
 package ru.mirea.task5.var1;
 
 public abstract class Dish {
-    String type,material;
+    private String type,material;
 
     public Dish(String type, String material) {
         this.type = type;

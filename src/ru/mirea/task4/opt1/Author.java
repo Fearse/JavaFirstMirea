@@ -1,4 +1,4 @@
-package ru.mirea.task4;
+package ru.mirea.task4.opt1;
 
 public class Author {
     String name,email;

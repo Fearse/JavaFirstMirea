@@ -1,5 +1,4 @@
-package ru.mirea.task2;
-
+package ru.mirea.task2.Book;
 public class Book {
     String name,author;
     int page,rate;
@@ -27,3 +26,4 @@ public class Book {
         return "Книга: "+getName()+" автора "+getAuthor()+", с рейтингом "+getRate();
     }
 }
+

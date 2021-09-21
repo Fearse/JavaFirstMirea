@@ -1,4 +1,4 @@
-package ru.mirea.task4;
+package ru.mirea.task4.opt2;
 
 public class Ball {
     double x=0,y=0;

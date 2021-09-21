@@ -1,4 +1,4 @@
-package ru.mirea.task2;
+package ru.mirea.task2.Ball;
 
 public class Ball {
     String type,color,size;

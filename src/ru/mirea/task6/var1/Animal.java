@@ -1,7 +1,7 @@
 package ru.mirea.task6.var1;
 
 public class Animal implements Nameable{
-    String name,type;
+    private String name,type;
 
     public Animal(String name, String type) {
         this.name = name;
