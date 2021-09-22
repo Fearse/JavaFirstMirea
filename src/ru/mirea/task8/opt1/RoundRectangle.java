@@ -13,8 +13,8 @@ public class RoundRectangle extends Shape{
         g=(int)(Math.random()*255);
         b=(int)(Math.random()*255);
         gr.setColor(new Color(r,g,b));
-        int width=50+(int)(Math.random()*100);
-        int length=50+(int)(Math.random()*100);
+        int width=50+(int)(Math.random()*150);
+        int length=50+(int)(Math.random()*150);
         gr.drawRoundRect(x0, y0, width, length, 10, 10);
     }
 }

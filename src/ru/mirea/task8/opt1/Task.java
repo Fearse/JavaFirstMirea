@@ -8,7 +8,7 @@ public class Task extends JFrame {
      Task() {
         super("Task8");
         setLayout(null);
-        setSize(1000,900);
+        setSize(800,800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
     }
@@ -18,8 +18,8 @@ public class Task extends JFrame {
         if(!f) {
             for (int i=0;i<20;i++)
             {
-                int x=(int)(Math.random()*900);
-                int y=(int)(Math.random()*800);
+                int x=100+(int)(Math.random()*500);
+                int y=100+(int)(Math.random()*500);
                 int a=(int)(Math.random()*4);
                 Shape shape = switch (a) {
                     case 0 -> new Rectangle(x, y);
