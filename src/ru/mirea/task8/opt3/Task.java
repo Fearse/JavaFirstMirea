@@ -7,7 +7,7 @@ public class Task extends JFrame {
         super("Task");
         setSize(500,500);
         JLabel jLabel = new JLabel();
-        ////C:\Users\krivo\OneDrive\Рабочий стол\zxc-cat.gif;
+        //C:\Users\krivo\OneDrive\Рабочий стол\zxc-cat.gif;
         ImageIcon imageIcon = new ImageIcon("C:\\Users\\krivo\\OneDrive\\Рабочий стол\\zxc-cat.gif");
         jLabel.setIcon(imageIcon);
         add(jLabel);

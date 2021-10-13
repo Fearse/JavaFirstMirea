@@ -32,7 +32,7 @@ public class Task extends JFrame {
         constraints.ipady=45;
         constraints.weightx = 0.5;
         constraints.gridy   = 0  ;
-        constraints.gridx = 0;      // нулевая ячейка таблицы по горизонтали
+        constraints.gridx = 0;
         container.add(morButton, constraints);
 
         constraints.ipady=0;
@@ -50,7 +50,7 @@ public class Task extends JFrame {
         constraints.weightx = 1;
         constraints.fill = GridBagConstraints.HORIZONTAL;
         constraints.gridy   =  0 ;
-        constraints.gridx = 2;      // первая ячейка таблицы по горизонтали
+        constraints.gridx = 2;
         container.add(muButton, constraints);
 
         constraints.ipady=0;
