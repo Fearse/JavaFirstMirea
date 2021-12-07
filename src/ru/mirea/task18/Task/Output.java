@@ -35,7 +35,7 @@ public class Output {
             System.out.println("Ошибка ввода");
             return;
         }
-        summ= ru.mirea.task19.Task.Output.output(summ,bill);
+        summ= Output.output(summ,bill);
         System.out.println(summ);
     }
 }
