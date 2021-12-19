@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.task26</OriginalElement>
+  <nodes>
+    <node x="222.434658926818" y="104.0">ru.mirea.task26.OnlinePayStrategy</node>
+    <node x="443.7262487659926" y="306.3392317652137">ru.mirea.task26.CreditCard</node>
+    <node x="451.22624876599247" y="78.59646094087185">ru.mirea.task26.CreditPayStretegy</node>
+    <node x="-21.833333333333343" y="432.14630988347">ru.mirea.task26.Task</node>
+    <node x="275.434658926818" y="258.3547690979715">ru.mirea.task26.OnlineWallet</node>
+    <node x="201.76799226015135" y="-20.781904776363447">ru.mirea.task26.PayStrategy</node>
+    <node x="-11.333333333333343" y="104.0">ru.mirea.task26.Payment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task26.Payment" target="ru.mirea.task26.PayStrategy" relationship="DEPENDENCY">
+      <point x="-27.0" y="-38.5" />
+      <point x="15.666666666666657" y="74.0" />
+      <point x="223.1013255934847" y="74.0" />
+      <point x="-42.66666666666666" y="27.0" />
+    </edge>
+    <edge source="ru.mirea.task26.CreditPayStretegy" target="ru.mirea.task26.PayStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="533.7262487659925" y="84.0" />
+      <point x="308.434658926818" y="84.0" />
+      <point x="42.66666666666666" y="27.0" />
+    </edge>
+    <edge source="ru.mirea.task26.CreditCard" target="ru.mirea.task26.Payment" relationship="GENERALIZATION">
+      <point x="-30.0" y="-27.0" />
+      <point x="473.7262487659926" y="202.0" />
+      <point x="69.66666666666666" y="202.0" />
+      <point x="27.0" y="38.5" />
+    </edge>
+    <edge source="ru.mirea.task26.Task" target="ru.mirea.task26.OnlineWallet" relationship="CREATE">
+      <point x="37.5" y="-38.5" />
+      <point x="90.66666666666666" y="312.3547690979715" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ru.mirea.task26.CreditCard" target="ru.mirea.task26.CreditPayStretegy" relationship="CREATE">
+      <point x="30.0" y="-27.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="ru.mirea.task26.OnlineWallet" target="ru.mirea.task26.OnlinePayStrategy" relationship="CREATE">
+      <point x="-33.0" y="-27.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="ru.mirea.task26.Payment" target="ru.mirea.task26.PayStrategy" relationship="TO_ONE">
+      <point x="27.0" y="-38.5" />
+      <point x="69.66666666666666" y="84.0" />
+      <point x="265.76799226015135" y="84.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ru.mirea.task26.Task" target="ru.mirea.task26.CreditCard" relationship="CREATE">
+      <point x="37.5" y="-38.5" />
+      <point x="90.66666666666666" y="360.3392317652137" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ru.mirea.task26.OnlinePayStrategy" target="ru.mirea.task26.PayStrategy" relationship="REALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="42.66666666666666" y="27.0" />
+    </edge>
+    <edge source="ru.mirea.task26.Task" target="ru.mirea.task26.Payment" relationship="DEPENDENCY">
+      <point x="-37.5" y="-38.5" />
+      <point x="-27.0" y="38.5" />
+    </edge>
+    <edge source="ru.mirea.task26.OnlineWallet" target="ru.mirea.task26.Payment" relationship="GENERALIZATION">
+      <point x="33.0" y="-27.0" />
+      <point x="374.434658926818" y="202.0" />
+      <point x="69.66666666666666" y="202.0" />
+      <point x="27.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9128440366972478" showDependencies="true" x="268.13356365701776" y="236.99999999999997" />
+  <SelectedNodes>
+    <node>ru.mirea.task26.OnlineWallet</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
